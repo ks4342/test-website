@@ -5,7 +5,12 @@
     font-family: sans-serif;
 }
 nav{
-    background-color: crimson;
+    background: rgba( 255, 255, 255, 0.25 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
     height: 60px;
     
 }
@@ -22,8 +27,8 @@ nav ul li{
    color: antiquewhite;
 }
 body{
-    background-color: aquamarine;
-
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,236,35,0.8463760504201681) 0%, rgba(0,212,255,1) 100%);
 }
 body img{
     margin: 20px 0 ;
@@ -37,7 +42,7 @@ h1{
 }
 a{
     text-decoration: none;
-    color: antiquewhite;
+    color: black;
 }
 
 .space{
@@ -49,7 +54,7 @@ hr{
     border-style: none;
     border-top-style: dotted;
     border-width: 12px;
-    border-color: crimson;
-    width: 100%;
+    border-color: black;
+    width: 20%;
     margin: 10px auto;
 }
