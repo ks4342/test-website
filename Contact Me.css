@@ -11,7 +11,9 @@ nav{
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-height: 60px;
+    height: 60px;
+    margin-left: 300px;
+    margin-right: 300px;
     
 }
 form{background: rgba( 255, 255, 255, 0.25 );
@@ -20,10 +22,9 @@ form{background: rgba( 255, 255, 255, 0.25 );
     -webkit-backdrop-filter: blur( 7.5px );
     border-radius: 10px;
     border: 1px solid rgba( 255, 255, 255, 0.18 );
-    margin-left: 360px;
-    margin-right: 360px;
+
     
-    margin-top: 60px;
+    margin-top: 30px;
     margin-bottom: 30px;}
 nav ul {
     display: flex;
@@ -32,7 +33,7 @@ nav ul {
 
 }
 nav ul li{
-   margin: 20px 12px;
+   margin: 20px 60px;
    font-weight: bold;
    cursor: pointer;
    color: antiquewhite;
